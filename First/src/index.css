@@ -56,3 +56,10 @@
     @apply font-montserrat text-slate-500 text-lg leading-7;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    zoom: 1.5;  /* Mobile users ke liye zoom out karne ka trick */
+    overflow-x: hidden;
+  }
+}
